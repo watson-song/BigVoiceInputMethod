@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:layout_width="match_parent"
+    android:layout_height="180dip"
+    android:keyHeight="180dip">
+
+    <Row>
+        <Key android:codes="49,54" android:keyLabel="1/6"
+            android:keyEdgeFlags="left"/>
+        <Key android:codes="50,55" android:keyLabel="2/7"/>
+        <Key android:codes="51,56" android:keyLabel="3/8"/>
+        <Key android:codes="52,57" android:keyLabel="4/9"/>
+        <Key android:codes="53,48" android:keyLabel="5/0"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="97" android:keyLabel="a"
+            android:keyEdgeFlags="left"/>
+        <Key android:codes="99" android:keyLabel="c"/>
+        <Key android:codes="102" android:keyLabel="f"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="-5"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyEdgeFlags="right"
+            android:isRepeatable="true"/>
+    </Row>
+
+    <Row  android:rowEdgeFlags="bottom">
+
+        <Key android:codes="-3" android:keyWidth="20%p"
+            android:keyIcon="@drawable/ic_notification_ime_default"
+            android:keyEdgeFlags="left" />
+
+        <Key android:codes="-2"
+            android:keyIcon="@drawable/btn_voice"
+            android:keyLabel="123" android:keyWidth="60%p" />
+
+        <Key android:codes="10" android:keyWidth="20%p"
+            android:keyLabel="OK"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>

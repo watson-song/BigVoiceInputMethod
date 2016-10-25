@@ -1,0 +1,13 @@
+<com.watson.bigvoiceinputmethod.BigVoiceKeyboardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/keyboardView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:keyTextColor="@color/white"
+	android:keyTextSize="@dimen/key_text_size"
+	android:background="@color/white"
+	/>
+
+	<!--android:keyBackground="@drawable/btn_keyboard_key"-->
+	<!--android:background="@drawable/keyboard_background"-->

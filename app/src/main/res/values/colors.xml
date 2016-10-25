@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="spilt_line">#CFCFCF</color>
+    <color name="btn_send_textcolor">@color/white</color>
+    <color name="btn_select">#888888</color>
+    <color name="common_bg">@color/white</color>
+
+    <color name="toolbar_spilt_line">#CDCDCD</color>
+    <color name="toolbar_btn_select">#D9D9D9</color>
+    <color name="toolbar_btn_nomal">@color/white</color>
+
+    <color name="base_middle_gray">#f3f3f3</color>
+    <color name="base_middle_gray_light">#f8f8f8</color>
+
+    <color name="qq_bg">#ecedf1</color>
+
+
+    <color name="black">#000000</color>
+    <color name="beige">#eaeaea</color>
+
+    <color name="left_cell_text">#333333</color>
+    <color name="left_cell_bg">#f5f5f5</color>
+    <color name="left_cell_bg_alt">#f9f9f9</color>
+
+    <color name="right_cell_text">#333333</color>
+    <color name="right_cell_bg">#f5f5f5</color>
+    <color name="right_cell_bg_alt">#f9f9f9</color>
+
+    <color name="border_color">#ebebeb</color>
+    <style name="preferences" parent="android:Theme.Light"></style>
+
+</resources>
